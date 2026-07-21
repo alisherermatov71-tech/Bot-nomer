@@ -68,7 +68,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
         USER_BALANCES[user.id] = 0.0  # Бастапқы баланс
         
     text = (
-        f"Сәлем, {user.first_name}! 👋
+        f"Сәлем, {user.first_name}! 👋"
 
 "
         "🔥 Бұл автоматты SMM накрутка боты.
